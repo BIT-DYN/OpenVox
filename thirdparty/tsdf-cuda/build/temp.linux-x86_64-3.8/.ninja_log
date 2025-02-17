@@ -1,0 +1,3 @@
+# ninja log v5
+0	15634	1735557065826132313	/code1/dyn/codes/OpenWorld/OpenGS/HI-Mapping/thirdparty/tsdf-cuda/build/temp.linux-x86_64-3.8/ext.o	ffde08a0ca790f1d
+0	41214	1735557091391634321	/code1/dyn/codes/OpenWorld/OpenGS/HI-Mapping/thirdparty/tsdf-cuda/build/temp.linux-x86_64-3.8/integrate_kernel.o	94aa367006d56340

@@ -1,0 +1,5 @@
+# ninja log v5
+0	20319	1734939470	/code1/dyn/codes/OpenWorld/OpenGS/tsdf-fusion-cuda/tsdf-cuda/build/temp.linux-x86_64-cpython-39/ext.o	8969e731e3ccf4d4
+0	45562	1734939495	/code1/dyn/codes/OpenWorld/OpenGS/tsdf-fusion-cuda/tsdf-cuda/build/temp.linux-x86_64-cpython-39/integrate_kernel.o	276bde4633b86d37
+11	49106	1734950973	/code1/dyn/codes/OpenWorld/OpenGS/tsdf-fusion-cuda/tsdf-cuda/build/temp.linux-x86_64-cpython-39/integrate_kernel.o	276bde4633b86d37
+28	41849	1735354837	/code1/dyn/codes/OpenWorld/OpenGS/tsdf-fusion-cuda/tsdf-cuda/build/temp.linux-x86_64-cpython-39/integrate_kernel.o	276bde4633b86d37

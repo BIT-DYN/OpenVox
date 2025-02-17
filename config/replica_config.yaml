@@ -1,0 +1,10 @@
+tsdf:
+  voxel_size: 0.04
+  
+  
+instance:
+  instance_skip: 10
+  pro_thre: 0.4  #0.4
+  ins_min_count: 3
+  vox_min_count: 3
+  ins_min_voxel: 15
