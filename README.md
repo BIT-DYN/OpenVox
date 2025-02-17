@@ -18,8 +18,7 @@ In the front-end, we design an efficient instance segmentation and comprehension
 In the back-end, we deploy instance-level probabilistic voxels and model the cross-frame incremental fusion problem as two subtasks: Maximum Likelihood Estimation (MLE) for instance association and Maximum A Posteriori estimation (MAP) for map updating, ensuring robustness to sensor or segmentation noise.
 Results across multiple datasets show that OpenVox achieves superior performance in zero-shot instance segmentation, semantic segmentation, and open-vocabulary retrieval. Additionally, real-world robotics experiment confirms OpenVox's strong potential for stable, real-time operation.
  
-<img src="https://github.com/BIT-DYN/OpenVox/blob/main/assets/poster.jpg">
-
+<img src="https://github.com/BIT-DYN/OpenVox/blob/master/assets/poster.jpg">
 
 ## 🛠  Install
 
