@@ -19,7 +19,10 @@ In the back-end, we deploy instance-level probabilistic voxels and model the cro
 Results across multiple datasets show that OpenVox achieves superior performance in zero-shot instance segmentation, semantic segmentation, and open-vocabulary retrieval. Additionally, real-world robotics experiment confirms OpenVox's strong potential for stable, real-time operation.
  
 <img src="https://github.com/BIT-DYN/OpenVox/blob/master/assets/poster.jpg">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06bc9903bbe2db5c01bad55f39e83e6eaa4f0188
 
 ## 🛠  Install
 
