@@ -1,6 +1,3 @@
-# calib为存储相机校准文件的路径
-
-
 import torch
 import argparse
 import os

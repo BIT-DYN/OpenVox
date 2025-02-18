@@ -325,19 +325,6 @@ class OpenVox():
                     geometry_probability = this_id_pro.sum() / occupied_voxels_num
                     geometry_sim.append(geometry_probability)
                     
-                    # # debug: post process for smooth in this mask
-                    # # mean_pro = this_id_pro.sum()/len(this_id_pro)
-                    # # x = (this_id_pro_count - mean_pro * this_id_all_count) / (1 - mean_pro)
-                    # diff_count = this_id_all_count * (this_id_pro.sum()/len(this_id_pro)) - this_id_pro_count
-                    # delta = 2.0
-                    # # delta = 0
-                    # diff_count[diff_count<0] = 0
-                    # # diff_count[diff_count*delta > this_id_pro_count] = 0
-                    # self.instance_pro_vol[instance_voxel_coords[:,0][indices[:, 0]], instance_voxel_coords[:,1][indices[:, 0]], \
-                    #                                 instance_voxel_coords[:,2][indices[:, 0]], indices[:, 1]] += (diff_count*delta).to(torch.int64)
-                    # self.instance_count_vol[instance_voxel_coords[:,0][indices[:, 0]], instance_voxel_coords[:,1][indices[:, 0]], \
-                    #                                 instance_voxel_coords[:,2][indices[:, 0]]] += (diff_count*delta).to(torch.int64)
-                    
                 geometry_sim = torch.stack(geometry_sim)
                 # feature similarity
                 this_instance_fea = caption_fts[mask_id]
@@ -355,8 +342,6 @@ class OpenVox():
                     # visual ratio
                     associated_instance_volume = (max_pro_instance_id==associated_id).sum().float()
                     vis_ratio = torch.clip(occupied_voxels_num/associated_instance_volume, min=0., max=1.)*max_pro
-                    # debug 看看对不对
-                    
                     
                     # update the feature
                     self.instance_feature[associated_id] = (self.instance_feature[associated_id] * self.instance_fea_weight[associated_id] + \

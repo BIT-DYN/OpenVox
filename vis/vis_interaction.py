@@ -114,7 +114,6 @@ def main():
         text_query = input("Enter your query: ")
         text_queries = [text_query]
         top_num = int(input("Enter your top num (such as 0(all) or 1 or 2): "))
-        # 对输入的文本进行sbert编码
         with torch.no_grad():
             object_sbert_ft = sbert_model.encode(text_queries, convert_to_tensor=True)
             object_sbert_ft /= object_sbert_ft.norm(dim=-1, keepdim=True)
