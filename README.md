@@ -12,17 +12,9 @@
 
 
  ## 🏠  Abstract
-The reconstruction and understanding of the surrounding environment is crucial for mobile robots to execute a wide range of human instructions. In recent years, open-vocabulary mapping enhanced by visual language models (VLMs) has become a common solution. While integrated object understanding helps mitigate semantic ambiguity in point-wise feature maps, efficiently obtaining rich semantic understanding and robust incremental reconstruction at the instance-level remains challenging.
-To address these challenges, we introduce OpenVox, a real-time incremental open-vocabulary instance-level probabilistic voxel representation.
-In the front-end, we design an efficient instance segmentation and comprehension pipeline that enhances language reasoning through encoding caption.
-In the back-end, we deploy instance-level probabilistic voxels and model the cross-frame incremental fusion problem as two subtasks: Maximum Likelihood Estimation (MLE) for instance association and Maximum A Posteriori estimation (MAP) for map updating, ensuring robustness to sensor or segmentation noise.
-Results across multiple datasets show that OpenVox achieves superior performance in zero-shot instance segmentation, semantic segmentation, and open-vocabulary retrieval. Additionally, real-world robotics experiment confirms OpenVox's strong potential for stable, real-time operation.
- 
-<img src="https://github.com/BIT-DYN/OpenVox/blob/master/assets/poster.jpg">
-<<<<<<< HEAD
+In recent years, vision-language models (VLMs) have advanced open-vocabulary mapping, enabling mobile robots to simultaneously achieve environmental reconstruction and high-level semantic understanding. While integrated object cognition helps mitigate semantic ambiguity in point-wise feature maps, efficiently obtaining rich semantic understanding and robust incremental reconstruction at the instance-level remains challenging. To address these challenges, we introduce OpenVox, a real-time incremental open-vocabulary probabilistic instance voxel representation. In the front-end, we design an efficient instance segmentation and comprehension pipeline that enhances language reasoning through encoding caption. In the back-end, we implement probabilistic instance voxels and formalize the cross-frame incremental fusion process into two subtasks: instance association and live map evolution, ensuring robustness to sensor and segmentation noise. Extensive evaluations across multiple datasets demonstrate that OpenVox achieves state-of-the-art performance in zero-shot instance segmentation, semantic segmentation, and open-vocabulary retrieval. Furthermore, real-world robotics experiments validate OpenVox's capability for stable, real-time operation.
 
-=======
->>>>>>> 06bc9903bbe2db5c01bad55f39e83e6eaa4f0188
+<img src="https://github.com/BIT-DYN/OpenVox/blob/master/assets/poster.jpg">
 
 ## 🛠  Install
 
