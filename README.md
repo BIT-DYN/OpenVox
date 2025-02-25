@@ -8,6 +8,9 @@
   <a href="https://open-vox.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project-👔-green?">
   </a> 
+  <a href="https://arxiv.org/pdf/2502.16528" target='_blank'>
+    <img src="https://img.shields.io/badge/Paper-📖-blue?">
+  </a> 
 </p>
 
 
